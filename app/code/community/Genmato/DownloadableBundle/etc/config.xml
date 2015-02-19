@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Genmato_DownloadableBundle>
+            <version>14.286.1</version>
+        </Genmato_DownloadableBundle>
+    </modules>
+
+    <global>
+        <catalog>
+            <product>
+                <type>
+                    <bundle>
+                        <allowed_selection_types>
+                            <downloadable/>
+                        </allowed_selection_types>
+                    </bundle>
+                    <configurable>
+                        <allowed_selection_types>
+                            <downloadable/>
+                        </allowed_selection_types>
+                    </configurable>
+                </type>
+            </product>
+        </catalog>
+    </global>
+</config>
